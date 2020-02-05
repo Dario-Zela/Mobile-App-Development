@@ -7,11 +7,26 @@
     <script src="components/loader.js"></script>
     <link rel="stylesheet" href="components/loader.css">
     <link rel="stylesheet" href="css/style.css">
-    <script>
-    </script>
+    <link rel="stylesheet" href="https://unpkg.com/onsenui/css/onsenui.css"> 
+    <link rel="stylesheet" href="https://unpkg.com/onsenui/css/onsen-css-components.min.css"> 
+    <script src="https://unpkg.com/onsenui/js/onsenui.min.js"></script>
 </head>
 <body>
-	<br />
-    This is a template for Monaca app.
+<ons-page>
+  <div style="text-align: center; margin-top:200px">
+    <p>
+      <ons-input type="text" id="username" placeholder="Username" modifier="underbar" float></ons-input>
+    </p>
+    <p>
+      <ons-input type="text" id="password" placeholder="Password" modifier="underbar" float></ons-input>
+    </p>
+    <p>
+      <ons-button id="Enter">Sign In</ons-button>
+    </p>
+    <p id="Logg">edioiwoe
+    </p>
+  </div>
+</ons-page>
+<script type="text/javascript" src="js/Code.js"></script>
 </body>
 </html>
